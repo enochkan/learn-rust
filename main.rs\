@@ -1,0 +1,9 @@
+fn main() {
+	let s1 = String::from("Hello World!");
+	print_value(s1);
+	println(s1);y
+}
+
+fn print_value(s: String) {
+	println!("{s}");
+}
